@@ -14,7 +14,7 @@ Scenario: search java Tutorial
 
 	#By using @ignore tag we can ignore specific scenario
 	@ignore
-	Scenario: search Spec flow Tutorial
+	Scenario: search Spec flow Tutorial Changed for Deepak branch
 	When User search a tutorial with a keyword SpecFlow Tutorial
 	And Click on enter button
 	Then All courses related to SpecFlow tutorial should be dispaly
