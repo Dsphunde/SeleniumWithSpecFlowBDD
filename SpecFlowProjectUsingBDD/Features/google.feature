@@ -7,7 +7,7 @@ Background:
    When Search text box should be present and enabled in the google home page
 
 @Intigration @Regression
-Scenario: search java Tutorial
+Scenario: search java Tutorial for update feature branch
 	When User search a tutorial with a keyword Java Tutorial
 	And Click on enter button
 	Then All courses related to java tutorial should be dispaly
