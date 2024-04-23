@@ -20,7 +20,7 @@ Scenario: search java Tutorial
 	Then All courses related to SpecFlow tutorial should be dispaly
 
 	@UAT
-	Scenario Outline: search google home page with different keywords Tutorial
+	Scenario Outline: search google home page with different keywords Tutorial for git test
 	When User search a tutorial with a keyword <Text> Tutorial
 	And Click on enter button
 	Then All courses related to <Text> tutorial should be dispaly
